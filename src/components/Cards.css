@@ -3,6 +3,7 @@ width: 100%;
 display: flex;
 max-width: 1100px;
 flex-direction: row;
+margin: auto;
 }
 
 .card{
@@ -40,7 +41,8 @@ flex-direction: row;
 }
 .card .contenido a{
    text-decoration: none;
-   display: inline;
+   display: flex;
+   margin: auto;
    margin-top: 10px;
    padding: 10px;
    color: #2fb4cc;
