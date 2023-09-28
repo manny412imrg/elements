@@ -1,14 +1,15 @@
 import './App.css'
-
+import Rotatory from './components/Rotatory'
+import Button from './components/Button'
+import Cards from './components/Cards'
 function App() {
 
 
   return (
-    <div className='body'>
-      <div className="container">
-        <div className="circle outer"></div>
-        <div className="circle inner"></div>
-      </div>
+    <div>
+      <Rotatory/>
+      <Button/>
+      <Cards/>
     </div>
   )
 }
